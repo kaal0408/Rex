@@ -45,7 +45,7 @@ def banner():
     for char in b:
         print(f'{random.choice(colors)}{char}{rs}')
     #print('=============Sexy Bitch==============')
-    print(f'{lg}   Version: {w}1.6{lg} | Author: {w}DipeshxD{rs}\n')
+    print(f'{lg}   Version: {w}1.6{lg} | Author: {w}kaal0408{rs}\n')
 
 
 # function to clear screen
