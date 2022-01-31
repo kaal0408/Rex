@@ -142,8 +142,8 @@ while True:
         # Thanks to github.com/th3unkn0n for the snippet below
         print(f'\n{lg}[i] Checking for updates...')
         try:
-            # https://raw.githubusercontent.com/DipeshxD/RexScrapper/DipeshxD/version.txt
-            version = requests.get('https://raw.githubusercontent.com/DipeshxD/RexScrapper/DipeshxD/version.txt')
+            # https://raw.githubusercontent.com/kaal0408/Rex/kaal0408/version.txt
+            version = requests.get('https://raw.githubusercontent.com/kaal0408/Rex/kaal0408/version.txt')
         except:
             print(f'{r} You are not connected to the internet')
             print(f'{r} Please connect to the internet and retry')
