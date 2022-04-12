@@ -1,11 +1,4 @@
-'''
-=============SON OF GOD=====================
-REX 1.0 members adding script
-Coded by REX - @krish775
-Apologies if anything in the code is dumb :)
-Copy with credits
-************************************************
-'''
+
 
 # import libraries
 from telethon.sync import TelegramClient
