@@ -37,7 +37,7 @@ def banner():
     ]
     for char in b:
         print(f'{random.choice(colors)}{char}{n}')
-    #print('=============SON OF GOD==============')
+    #print('Shivansh YouTube channel- https://youtube.com/channel/UCpZBwvZJdRsInUBgAWfpVMA')
     print(f'   Version: 1.0 | Author: REX{n}\n')
 
 def clr():
@@ -52,7 +52,7 @@ while True:
     print(lg+'[1] Add New Accounts'+n)
     print(lg+'[2] Filter All Banned Accounts'+n)
     print(lg+'[3] Delete specific accounts'+n)
-    print(lg+'[4] Update your Script'+n)
+    print(lg+'[4] Update your Software'+n)
     print(lg+'[5] Exit'+n)
     a = int(input('\nEnter Your Choice: '))
     if a == 1:
@@ -144,11 +144,11 @@ while True:
         input(f'\nPress enter to goto main menu...')
         f.close()
     elif a == 4:
-        # thanks to github.com/krish775 for the snippet below
+        # thanks to github.com/kaal0408 for the snippet below
         print(f'\n{lg}[i] Checking for updates...')
         try:
-            # https://raw.githubusercontent.com/krish775/Rex-TG-Member-Adder/main/version.txt
-            version = requests.get('https://raw.githubusercontent.com/krish775/Rex-TG-Member-Adder/main/version.txt')
+            # https://raw.githubusercontent.com/kaal0408/Rex/main/version.txt
+            version = requests.get('https://raw.githubusercontent.com/kaal0408/Rex/main/version.txt')
         except:
             print(f'{r} You are not connected to the internet')
             print(f'{r} Please connect to the internet and retry')
@@ -158,14 +158,14 @@ while True:
             if prompt == 'y' or prompt == 'yes' or prompt == 'Y':
                 print(f'{lg}[i] Downloading updates...')
                 if os.name == 'nt':
-                    os.system('del rexadder.py')
-                    os.system('del rexmanager.py')
+                    os.system('del adder.py')
+                    os.system('del manager.py')
                 else:
-                    os.system('rm rexadder.py')
-                    os.system('rm rexmanager.py')
+                    os.system('rm adder.py')
+                    os.system('rm manager.py')
                 #os.system('del scraper.py')
-                os.system('curl -l -O https://raw.githubusercontent.com/krish775/Rex-TG-Member-Adder/main/rexadder.py')
-                os.system('curl -l -O https://raw.githubusercontent.com/krish775/Rex-TG-Member-Adder/main/rexmanager.py')
+                os.system('curl -l -O https://raw.githubusercontent.com/kaal0408/Rex/main/adder.py')
+                os.system('curl -l -O https://raw.githubusercontent.com/ka0408/Rex/main/manager.py')
                 print(f'{gr}[*] Updated to version: {version.text}')
                 input('Press enter to exit...')
                 exit()
