@@ -47,7 +47,7 @@ def banner():
     ]
     for char in b:
         print(f'{random.choice(colors)}{char}{rs}')
-    #print('=============SON OF GOD==============')
+    #print('Shivansh YouTube channel- https://youtube.com/channel/UCpZBwvZJdRsInUBgAWfpVMA')
     print(f'{lg}   Version: {w}1.0{lg} | Author: {w}REX{rs}\n')
 
 
